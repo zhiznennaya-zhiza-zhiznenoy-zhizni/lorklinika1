@@ -1,0 +1,294 @@
+//////////////////////////////////////////////////////////////////////////////
+.op {
+  width: 120px;
+  height: 120px;
+  border: 5px solid rgba(30, 94, 171, 0.50);
+}
+
+.col-\[20\] {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media screen and (max-width: 768px) {
+    width: 50%;
+  }
+}
+
+////////////////////////////////////////////////////////////////////////////////
+.info__text {
+  color: #1E5EAB;
+}
+
+.info__text:hover {
+  color: red;
+  border-bottom: red solid 1px;
+}
+
+////////////////////////////////////////////////////////////////////////////////
+
+.card-img {
+  width: 200px;
+  height: 100%;
+  @media screen and (max-width: 576px) {
+    & {
+      width: 100%;
+    }
+  }
+}
+
+.card-name {
+  font-size: 23px;
+  margin-bottom: 12px;
+}
+
+.card-job-title {
+  width: fit-content;
+  font-size: 16.8px;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif;
+  padding-top: 10px;
+}
+
+.card-profession {
+  color: #212529;
+  font-size: 16.8px;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 12px 0;
+}
+
+.card-experience {
+  color: #545454;
+  font-size: 16.8px;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif;
+
+}
+
+.main-description--bg-hover {
+  height: 40px;
+  width: fit-content;
+  min-width: fit-content;
+
+  p {
+    text-align: start;
+    position: relative;
+    font-weight: 400;
+    transition: all 0.2s ease-in-out;
+    padding: 5px;
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+
+      top: 0;
+      width: 0;
+      height: 100%;
+      background-color: #5bbdbe;
+      transition: all 0.2s ease-in-out;
+      z-index: -1;
+    }
+  }
+}
+
+.p-component {
+  border-radius: 0;
+  border-bottom: none;
+  box-shadow: none;
+}
+
+////////////////////////////////////////////////////////////////////////////////
+.li2 {
+  position: relative;
+  padding-left: 20px;
+}
+
+.li2:before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 10px;
+  left: 4px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+/////////////////////////////////////////////////////////////////////////////
+.footer {
+  background-color: #364779;
+  display: flex;
+}
+
+.footer-title {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 19.2px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 125% */
+}
+
+
+.footer-description {
+  color: #d4d4d4;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif;
+  transition: .4s;
+}
+
+.footer-description:hover {
+  color: white;
+}
+
+.footer-menu {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.footer__tel {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__imgs {
+  display: flex;
+}
+
+.footer-item {
+  margin-top: 6px;
+  list-style: none;
+}
+
+.footer-link {
+  color: #D4D4D4 !important;
+  font-family: Roboto;
+  font-size: 14.4px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.footer__line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1331px;
+  height: 36px;
+  margin: auto;
+  @media screen and (max-width: 1024px) {
+    width: 960px;
+    height: 60px;
+  }
+  @media screen and (max-width: 768px) {
+    width: 720px;
+    height: 84px;
+  }
+  @media screen and (max-width: 576px) {
+    height: 108px;
+    width: 100%;
+  }
+  @media screen and (max-width: 375px) {
+    width: 377px;
+    height: 108px;
+  }
+}
+
+.footer__row {
+  display: flex;
+  justify-content: space-between;
+  @media screen and (max-width: 1024px) {
+    display: flex;
+    justify-content: center;
+  }
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  @media screen and (max-width: 425px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  @media screen and (max-width: 375px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.footer__row p {
+  @media screen and (max-width: 1024px) {
+    font-size: 11px;
+  }
+}
+
+p {
+  margin: 0px;
+}
+
+.metro__title {
+  color: #333;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.odf {
+  color: black;
+  font-family: Open Sans;
+  font-size: 5px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+body p {
+  font-family: "Open Sans";
+  color: #333;
+}
+
+body h1 h2 h3 {
+  font-family: "Open Sans";
+}
+
+.dfv {
+  @media screen and (max-width: 375px) {
+    margin-top: 20px;
+  }
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.pro {
+    margin-left: -45px;
+  @media screen and (max-width: 571.5px) {
+    margin-left: -25px;
+  }
+}
+.pro2{
+  @media screen and (max-width: 571.5px) {
+    margin-left: 55px;
+  }
+}
+.pro1 {
+    margin-left: -27px;
+}
+.li3:before{
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 10px;
+  left: 4px;
+  background-color: black;
+  border-radius:50%;
+}
+.li3{
+  position: relative;
+  padding-left: 20px;
+}
+

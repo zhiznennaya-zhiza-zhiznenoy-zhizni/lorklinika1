@@ -1,0 +1,40 @@
+.children__info-tittle{
+  color: #545454;
+  font-family: Roboto;
+  font-size: 38.64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 57.96px;
+  @media screen and (max-width: 768px) {
+    font-size: 25px;
+  }
+  }
+.children__info-text{
+  color: #545454;
+  font-family: Roboto;
+  font-size: 16.8px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26.88px;
+  width: 900px;
+  @media screen and (max-width: 1024px) {
+   width: 576px;
+  }
+  @media screen and (max-width: 768px) {
+    width: 432px;
+  }
+  @media screen and (max-width: 425px) {
+    width: 100%;
+  }
+  }
+.op{
+  width: 200px;
+}
+.children__list{
+  color: #545454;
+  font-family: Roboto;
+  font-size: 16.8px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26.88px;
+}

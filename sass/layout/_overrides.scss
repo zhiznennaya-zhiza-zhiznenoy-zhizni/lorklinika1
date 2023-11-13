@@ -1,0 +1,14 @@
+.p-menubar {
+  background-color: rgba(206, 224, 245, 0.30);
+}
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-content .p-menuitem-link:hover {
+background-color: transparent;
+}
+.p-menubar .p-menubar-root-list > .p-menuitem:not(.p-highlight):not(.p-disabled) > .p-menuitem-content:hover {
+  color: #495057;
+  background-color: transparent;
+}
+.p-menubar .p-menubar-root-list > .p-menuitem:not(.p-highlight):not(.p-disabled) > .p-menuitem-content:hover {
+  color: #495057;
+   background: transparent;
+}
